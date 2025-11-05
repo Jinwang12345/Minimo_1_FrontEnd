@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { authGuard } from './guards/auth.guard';
 import { LoginComponent } from './components/login/login.component';
 import { RegistrarComponent } from './components/registrar/registrar.component';
+import { ComentariosComponent } from './components/comentarios/comentarios.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -33,6 +34,11 @@ export const routes: Routes = [
   { 
     path: 'evento', 
     component: EventoComponent,
+    canActivate: [authGuard] 
+  },
+  { 
+    path: 'comentarios', //NUEVA RUTA
+    component: ComentariosComponent,
     canActivate: [authGuard] 
   },
   { 

@@ -16,7 +16,7 @@
       <span class="hero__icon">👤</span>
       <h1 class="hero__title">Bienvenido al Sistema</h1>
       <p class="hero__subtitle">
-        Gestiona usuarios y eventos con una interfaz moderna, intuitiva y eficiente. 
+        Gestiona usuarios, eventos y comentarios con una interfaz moderna, intuitiva y eficiente. 
         Todo lo que necesitas en un solo lugar.
       </p>
       
@@ -61,6 +61,17 @@
           </p>
         </div>
       </a>
+
+      <!-- NUEVA TARJETA DE COMENTARIOS -->
+      <a class="nav-card" routerLink="/comentarios">
+        <div class="nav-card__icon">💬</div>
+        <div class="nav-card__content">
+          <h3 class="nav-card__title">Gestión de Comentarios</h3>
+          <p class="nav-card__description">
+            Visualiza y administra los comentarios de los eventos
+          </p>
+        </div>
+      </a>
     </div>
 
     <div class="quick-actions">
@@ -69,6 +80,10 @@
       </a>
       <a class="quick-action" routerLink="/evento">
         🎯 Nuevo Evento
+      </a>
+      <!-- ✅ NUEVA ACCIÓN RÁPIDA -->
+      <a class="quick-action" routerLink="/comentarios">
+        💬 Nuevo Comentario
       </a>
     </div>
   </section>
