@@ -1,14 +1,14 @@
 ### EA-Minimo_1
-================================================================================
+
 ENTREGA - MINIMO_1 - SISTEMA DE COMENTARIOS
-================================================================================
+
 INFORMACIÓN DEL EJERCICIO:
 - Número de enunciado: Gestor de Comentarios
 - Descripción: Sistema de comentarios donde los usuarios pueden comentar en eventos
 
-================================================================================
+
  REQUISITOS CUMPLIDOS
-================================================================================
+
 
  BASE DE DATOS (MongoDB):
 1.  Nueva colección: "Comentario"
@@ -50,9 +50,9 @@ INFORMACIÓN DEL EJERCICIO:
    - deleteComentario() → DELETE eliminar
    - likeComentario() → PUT dar like
 
-================================================================================
+
  FUNCIONALIDADES IMPLEMENTADAS
-================================================================================
+
 
 BACKEND:
 -  Modelo de datos con validaciones (minlength, maxlength, required)
@@ -79,9 +79,9 @@ FRONTEND:
 -  Diseño responsive y accesible
 -  Integración con home (navegación)
 
-================================================================================
+
  ENDPOINTS API
-================================================================================
+
 
 Base URL: http://localhost:3000/api/comment
 
@@ -106,9 +106,9 @@ UPDATE:
 DELETE:
 - DELETE /:id → Eliminar comentario
 
-================================================================================
+
  DECISIONES DE DISEÑO Y COMENTARIOS IMPORTANTES
-================================================================================
+
 
 1. MODELO DE DATOS:
    - Se utilizó ObjectId para las relaciones con Usuario y Evento
